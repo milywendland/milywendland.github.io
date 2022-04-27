@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   font-family: 'Martel', serif;
@@ -13,7 +15,7 @@ code {
 nav {
   display: flex;
   justify-content: space-around;
-  background-color:rgb(237, 196, 11);
+  background-color:#ffd000;
   background-size: 100vw;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -62,12 +64,64 @@ display:flex;
 
 .portfolio-wrapper {
 text-align: center;
+
 }
 
+.project-card-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
 
 .project-card{
-  background-color: rgb(63, 63, 63);
-  height: 350px;
-  width: 250px;
+  background-color: rgb(5, 118, 153);
+  height: 550px;
+  width: 450px;
   margin: auto;
+  border-radius: 12px;
+  color:azure;
+}
+
+.project-card p{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.project-card h3{
+  font-weight: 600;
+}
+
+.project-card img{
+  height: 350px;
+  border-radius: 12px;
+}
+
+.project-card a{
+  text-decoration: none;
+  padding-left: 20px;
+  color:gold;
+  font-weight: 600;
+}
+
+.project-card a:hover{
+  color:azure;
+}
+
+.project-card .img-bottom {
+  display: none;
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99; */
+}
+.project-card:hover .img-bottom {
+  display: inline;
+}
+
+.project-card:hover .img-top {
+  display:none;
+}
+
+#yelp img{
+width: 400px;
 }

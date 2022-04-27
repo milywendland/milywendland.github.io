@@ -15,19 +15,12 @@ const Home = () => {
       </div>
       <div className="about">
         <p>
-          I have always had a love for design, I started off "coding" on
-          MySpace, as many 20-somethings did. I loved being able to take
-          something and make it my own. After years in the arts and service
-          industries, I felt that something was missing in my daily life. I
-          enrolled in General Assembly's Software Engineering Immersive and
-          rekindled my love for design.
-          <br></br>
-          <br></br>A creative problem solver. A detail-oriented Full-Stack and
-          Indie Game developer.
-          <br></br>
-          <br></br>
-          In my free time, I play minecraft, rollerskate in the park, and come
-          in 5th in team trivia.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa
+          vitae tortor condimentum lacinia quis. Lacinia quis vel eros donec ac
+          odio tempor orci. Viverra adipiscing at in tellus integer feugiat.
+          Tempor orci dapibus ultrices in iaculis nunc sed. Elementum curabitur
+          vitae nunc sed velit dignissim sodales ut.
         </p>
       </div>
     </div>
