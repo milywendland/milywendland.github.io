@@ -3,25 +3,52 @@ import milyphoto from '../images/milyphoto.jpg'
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home-wrapper">
       <div className="milylogo">
         <img src={mily} alt="mily wendland" />
       </div>
-      <div className="milyphoto">
-        <img src={milyphoto} alt="mily" />
-      </div>
-      <div className="about">
-        <h2>About Me</h2>
-      </div>
-      <div className="about">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa
-          vitae tortor condimentum lacinia quis. Lacinia quis vel eros donec ac
-          odio tempor orci. Viverra adipiscing at in tellus integer feugiat.
-          Tempor orci dapibus ultrices in iaculis nunc sed. Elementum curabitur
-          vitae nunc sed velit dignissim sodales ut.
-        </p>
+      <div className="home">
+        <div className="milyphoto">
+          <img src={milyphoto} alt="mily" />
+
+          <div className="about">
+            <h2>About Me</h2>
+            <p>
+              A full-stack developer who is creatively driven. I have a
+              background in visual arts, craft coffee, and customer service. I
+              take pride in everything that I work on whether it’s an app or
+              latte art. When I'm not coding, I am cuddling up with my cat,
+              gaming (mostly Minecraft), and coming solidly in fourth place at
+              team trivia.
+            </p>
+          </div>
+        </div>
+        <div className="contact">
+          <h3>Contact Me</h3>
+          <form
+            action="https://public.herotofu.com/v1/3e0c2c70-cafb-11ec-a557-034a17e2da28"
+            method="post"
+          >
+            <div>
+              <label for="name">Name: </label>
+              <input name="Name" id="name" type="text" required />
+            </div>
+            <div>
+              <label for="email">Email: </label>
+              <input name="Email" id="email" type="email" required />
+            </div>
+            <div>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Send me a message."
+              ></textarea>
+            </div>
+            <div>
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   )

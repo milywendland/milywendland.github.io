@@ -32,14 +32,19 @@ nav a:hover{
   color:rgb(204, 70, 4);
 }
 
+.home{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .milylogo img{
   height: 170px;
 }
 
 .milyphoto{
-  display: flex;
   width: 500px;
-  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 .milyphoto img{
@@ -48,18 +53,48 @@ nav a:hover{
 }
 
 .about{
-margin-top: 10px;
-width: 500px;
-display:flex;
+  justify-content: center;
+  width: 400px;
+
 }
 
 .about h2{
- margin: auto;
+margin: auto;
 }
 
 .about p{
-  margin-left: 20px;
   margin-top: 0;
+}
+
+.contact{
+  background-color: #ffd000;
+  height: 450px;
+  width: 350px;
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  border-radius: 12px;
+  margin: auto;
+}
+
+textarea{
+  margin-top:5px;
+  height: 250px;
+  width: 250px;
+}
+
+.contact button{
+  height: 35px;
+  width: 250px;
+  background-color:rgb(30, 28, 26);
+  color: white;
+  border-radius: 6px;
+  font-family:'Martel', serif;
+  font-weight: 600;
+}
+
+.contact button:hover{
+  background: orangered;
 }
 
 .portfolio-wrapper {
@@ -124,4 +159,25 @@ text-align: center;
 
 #yelp img{
 width: 400px;
+}
+
+.resume-wrapper{
+  text-align: center;
+}
+
+.resume{
+  height: 80vh;
+  width: 80vw;
+  margin:auto;
+}
+
+.download-button{
+  height: 35px;
+  margin-right: 30px;
+  float: right;
+  background-color:rgb(30, 28, 26);
+  color: white;
+  border-radius: 6px;
+  font-family:'Martel', serif;
+  font-weight: 600;
 }
